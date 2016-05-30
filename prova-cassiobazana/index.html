@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset = "utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Celular Direto</title>
+		<link rel="shortcut icon" href="img/favicon.ico">
+		<link rel="stylesheet" href="css/all.min.css"/>
+
+		<!--[if lt IE 9]>
+			<script src="static/js/html5.js"></script>
+		<![endif]-->
+
+	</head>
+
+	<body>
+		<header>
+			<div class="container-fluid">
+				<div class="banner">
+					<h1>controle</h1>
+					<div class="franquia">
+						<div class="franquia-plano">
+							<h2>1,5GB</h2>
+							<span>DE INTERNET</span>
+							<img src="img/banda_4g.png" />
+						</div>
+						<div class="vantagens-plano">
+							<h4>LIGAÇÕES<br/>ILIMITADAS</h4>
+							<p>para qualquer CD</p>
+
+							<h4>50 MINUTOS</h4>
+							<p>locais para outras operadoras</p>
+
+							<h4>SMS ILIMITADOS</h4>
+							<p>para qualquer operadora</p>
+						</div>
+
+						<div class="preco-plano">
+							<sup class="unidade">R$</sup>54 
+							<sup class="centavos">,99</sup>
+							<sub>/mês</sub>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<section>
+			<div class="container">
+				<div class="conheca-planos">
+					<div class="row">
+						<div class="col-md-12">
+							<h2 class="anuncio">Conheça os Planos</h2>
+							<p>Com o Controle você para um valor fixo todo mês e tem<br/>
+							   internet 4G, SMS e ligações ilimitadas com total controle de gastos.</p>
+						</div>
+						<div class="col-xs-12 col-md-4">
+							<div class="plano" data-franquia="1GB" data-preco="R$ 39,99">
+								<div class="titulo">
+									<p>Celular Direto Controle</p>
+									<h2>1GB</h2>
+								</div>
+								<div class="conteudo">
+									<h4>LIGAÇÕES ILIMITADAS</h4>
+									<p>Para qualquer CD</p>
+
+									<h4>25 MINUTOS</h4>
+									<p>locais para outras operadoras</p>
+
+									<h4>SMS ILIMITADOS</h4>
+									<p>para qualquer operadora</p>
+								</div>
+								<div class="clearfix rodape">
+									<div class="preco-rodape">
+										<sup class="unidade">R$</sup>39 
+										<sup class="centavos">,99</sup>
+										<sub>/mês</sub>
+									</div>
+									<button type="button" class="selecionaPlano" data-toggle="modal" data-target="#modalFormulario"><img src="img/btn_seta.png" />Contratar</button>
+								</div>
+							</div>
+						</div>
+						<div class="col-xs-12 col-md-4">
+							<div class="plano" data-franquia="1,5GB" data-preco="R$ 54,99">
+								<div class="titulo">
+									<p>Celular Direto Controle</p>
+									<h2>1,5GB</h2>
+								</div>
+								<div class="conteudo">
+									<h4>LIGAÇÕES ILIMITADAS</h4>
+									<p>para qualquer CD</p>
+
+									<h4>50 MINUTOS</h4>
+									<p>locais para outras operadoras</p>
+
+									<h4>SMS ILIMITADOS</h4>
+									<p>para qualquer operadora</p>
+								</div>
+								<div class="clearfix rodape">
+									<div class="preco-rodape">
+										<sup class="unidade">R$</sup>54 
+										<sup class="centavos">,99</sup>
+										<sub>/mês</sub>
+									</div>
+									<button type="button" data-toggle="modal" data-target="#modalFormulario" class="selecionaPlano"><img src="img/btn_seta.png" />Contratar</button>
+								</div>
+							</div>
+						</div>
+						<div class="col-xs-12 col-md-4">
+							<div class="plano" data-franquia="2GB" data-preco="R$ 69,99">
+								<div class="titulo">
+									<p>Celular Direto Controle</p>
+									<h2>2GB</h2>
+								</div>
+								<div class="conteudo">
+									<h4>LIGAÇÕES ILIMITADAS</h4>
+									<p>para qualquer CD</p>
+
+									<h4>75 MINUTOS</h4>
+									<p>locais para outras operadoras</p>
+
+									<h4>SMS ILIMITADOS</h4>
+									<p>para qualquer operadora</p>
+								</div>
+								<div class="rodape">
+									<div class="preco-rodape">
+										<sup class="unidade">R$</sup>69 
+										<sup class="centavos">,99</sup>
+										<sub>/mês</sub>
+									</div>
+									<button type="button" data-toggle="modal" data-target="#modalFormulario" class="selecionaPlano"><img src="img/btn_seta.png" />Contratar</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<footer>
+			<div class="container">
+				<img src="img/cel_rodape.png" />
+			</div>
+		</footer>
+
+
+		<!-- Modal Formulário -->
+		<div class="modal fade" id="modalFormulario" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+		  <div class="modal-dialog" role="document">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><img src="img/btn_close.png" /></button>
+		        <h4 class="modal-title" id="myModalLabel"><img src="img/logo_modal.png" /></h4>
+		      </div>
+		      <div class="modal-body modal-form">
+		      	<ul class="nav nav-tabs">
+				  <li role="presentation" class="active"><a href="#">1 Dados Pessoais</a></li>
+				</ul>
+				<form class="row" id="register-form">
+					<fieldset>
+						<div class="col-md-12">
+							<div class="form-group">
+    							<span class="planoSelecionado" data-franquia="" data-preco="">Plano: <span class="plano-ativo"></span></span>
+							</div>
+						</div>
+						<div class="col-md-12">
+							<div class="form-group">
+								<label for="nomeCompleto">Nome Completo</label>
+    							<input type="text" class="form-control" id="nomeCompleto" placeholder="Nome Completo" name="nomeCompleto">
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="form-group">
+								<label for="dataNascimento">Nascimento</label>
+    							<input type="date" class="form-control" id="dataNascimento" placeholder="" name="dataNascimento">
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="form-group">
+								<label for="cpf">CPF</label>
+    							<input type="number" class="form-control" id="cpf" name="cpf" placeholder="000.000.000-00">
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="form-group">
+								<label for="telContato">Telefone de Contato</label>
+								<input type="number" class="form-control ddd" id="ddd" placeholder="DDD" name="ddd">
+    							<input type="number" class="form-control contato" id="telContato" placeholder="" name="telContato">
+							</div>
+						</div>
+						<div class="col-md-12">
+							<div class="form-group">
+								<label for="email">Email</label>
+    							<input type="text" class="form-control" id="email" placeholder="Email" name="email">
+							</div>
+						</div>
+						<div class="col-md-12">
+							<div class="form-group">
+								<label for="nomecompletoMae">Nome Completo da Mãe</label>
+    							<input type="text" class="form-control" id="nomecompletoMae" placeholder="Nome Completo da Mãe" name="nomecompletoMae">
+							</div>
+						</div>
+						<button type="submit" class="btn" id="enviarForm">Continuar</button>
+					</fieldset>
+				</form>
+
+		      </div>
+
+			  <div class="modal-body ">
+			  	<div class="modal-compra">
+			      	<h2>Parabéns!</h2>
+			      	<h3>Sua linha CD de número <span id="contatoUsuario"></span> agora possui o plano Celular Direto Controle<span class="planoSelecionado" data-franquia=""> <span class="plano-ativo"></span></span></h3>
+			      	<p>Em instantes você receberá um e-mail do nosso Agente Oficial Celulardireto e um SMS confirmando a ativação do seu novo plano. Assim que receber a confirmação por SMS, você já poderá usufruir de todos os benefícios do seu novo plano.</p>
+					<div class="jumbotron">
+					  <div class="row">
+						<div class="col-md-12">
+							<span>Código do Pedido:</span><p>00000001</p>
+						</div>
+						<div class="col-md-8">
+							<span>Nome: </span><p id="nomeUsuario"></p>
+						</div>
+						<div class="col-md-4">
+							<span>CPF: </span><p id="cpfUsuario"></p>
+						</div>
+						<div class="col-md-8">
+							<span>Plano: </span><p class="planoSelecionado" data-franquia=""></p>
+						</div>
+						<div class="col-md-4">
+							<span>Valor: </span><p class="plano-preco" data-preco=""></p>
+						</div>
+						<div class="col-md-12">
+							<span>Vencimento: </span><p>Dia 10 de cada mês</p>
+						</div>
+					  </div>
+					  <button type="button" class="ok" data-dismiss="modal" aria-label="Close">Ok</button>
+					</div>
+			    </div>
+			  </div>
+		      <div class="modal-footer">
+				<img src="img/cel_rodape_modal.png" />
+		      </div>
+		    </div>
+		  </div>
+		</div>
+
+
+		<!-- jQuery (necessary for Bootstrap's JavaScript plugins)--> 
+	    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<!-- jQuery validator -->
+		<script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.15.0/jquery.validate.min.js"></script>
+		<script src="js/validation.min.js"></script>
+	    <!-- Include all compiled plugins (below), or include individual files as needed -->
+		<script src="js/bootstrap.min.js"></script>
+
+	</body>
+</html>
